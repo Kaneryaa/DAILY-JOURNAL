@@ -1,4 +1,5 @@
-Project Title
+
+#DAILY-JOURNAL 
 [Project Description]
 
 Getting Started
