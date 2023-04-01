@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  node-web:
+    image: danish1234512/your-image-name
+    deploy:
+      replicas: 3
+    ports:
+      - "3000:3000"
+  db:
+    image: mysql:latest
+    ports: 
+      - "3306:3306"
