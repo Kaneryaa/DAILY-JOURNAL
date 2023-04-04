@@ -5,4 +5,4 @@
 #docker node ls
 #docker stack ls 
 #sudo docker service ls
-docker service scale node-stack_db=4
+#docker service scale node-stack_db=4
