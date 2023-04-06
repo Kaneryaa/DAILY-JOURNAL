@@ -1,11 +1,10 @@
-
-
 pipeline {
     agent any
     stages {
-        stage('Builds') {
+        stage('code') {
             steps {
-                sh 'echo "Building..."'
+                echo "cloning code..."
+                git branch:'master', url:'https://github.com/Kaneryaa/DAILY-JOURNAL.git'
             }
         }
         stage('Test') {
