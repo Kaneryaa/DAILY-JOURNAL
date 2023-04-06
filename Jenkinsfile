@@ -7,9 +7,10 @@ pipeline {
                 git branch:'master', url:'https://github.com/Kaneryaa/DAILY-JOURNAL.git'
             }
         }
-        stage('Test') {
+        stage('build') {
             steps {
-                sh 'echo "Testing..."'
+                echo "buuid"
+                docker build . -t danish1234512/your-image-name
             }
         }
         stage('Deploy') {
