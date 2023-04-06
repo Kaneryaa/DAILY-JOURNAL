@@ -13,9 +13,10 @@ pipeline {
                 sh 'docker build . -t danish1234512/your-image-name'
             }
         }
-        stage('Deploy') {
+        stage('Docker run') {
             steps {
-                sh 'echo "Deploying..."'
+                echo "Docker run..."
+                sh 'docker-compose up'
             }
         }
     }
