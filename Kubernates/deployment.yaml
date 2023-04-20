@@ -1,19 +1,23 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: dail-journal-deployment
-  namespace: web-application
   labels:
     app: journal-app
 spec:
   replicas: 4
-  selector: 
-  matchLabels:
-    app: journal-app
-  containers:
-    - name: web-appilacation-container
-      image: danish1234512/your-image-name
-      ports:
-        - containerPort: 3000
+  selector:
+    matchLabels:
+      app: journal-app
+  template:
+    metadata:
+      labels:
+        app: journal-app
+    spec:
+      containers:
+        - name: web-appilacation-container
+          image: danish1234512/your-image-name
+          ports:
+            - containerPort: 3000
     
 
