@@ -1,6 +1,6 @@
 
-* DAILY-JOURNAL about 
 
-I have made a simple project that consists of three templates: a contact section, a home section, and an about section" means that you have created a project that is relatively straightforward and includes only three templates. These templates likely correspond to the different pages or sections of the website or application. The first is a contact section, which may include a form or other means of contacting the website or application's owner. The second is the home section, which is likely the landing page or main page of the website or application. Finally, the third section is an about section, which could provide more information about the website or application, its creators, or its purpose.
-
+![image](https://user-images.githubusercontent.com/89991677/233611013-a3119c69-ce40-4ef5-b58e-f9e99e811844.png)
+![image](https://user-images.githubusercontent.com/89991677/233611071-aecd0742-8812-463a-8f9e-b71ae1941642.png)
+![image](https://user-images.githubusercontent.com/89991677/233611126-c53b9d4c-29be-472d-a34d-d6e686fce483.png)
 
