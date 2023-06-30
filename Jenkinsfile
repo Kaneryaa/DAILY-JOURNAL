@@ -16,7 +16,7 @@ pipeline {
         stage('Docker run') {
             steps {
                 echo "Docker run..."
-                sh 'docker run --name node-app-containers -p 3000:3000 danish1234512/your-image-name'
+                sh 'docker run --name node-app-containers12 -p 3000:3000 danish1234512/your-image-name'
             }
         }
     }
