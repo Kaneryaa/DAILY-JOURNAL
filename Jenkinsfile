@@ -9,14 +9,14 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo "buuid"
+                echo "build"
                 sh 'docker build . -t danish1234512/your-image-name'
             }
         }
         stage('Docker run') {
             steps {
                 echo "Docker run..."
-                sh 'docker-compose up'
+                sh 'docker run -d --name node-app-container -p 3000:3000 danish1234512/your-image-name'
             }
         }
     }
