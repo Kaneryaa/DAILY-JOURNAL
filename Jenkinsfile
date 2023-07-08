@@ -18,6 +18,7 @@ pipeline {
         stage('Docker run') {
             steps {
                 echo "Docker run..."
+                sh 'docker-compose down'
                 sh 'docker-compose up'
             }
         }
