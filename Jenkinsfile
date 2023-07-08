@@ -10,7 +10,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "build"
-                sh 'docker build . -t danish1234512/your-image-name'
+                sh 'sudo docker build . -t danish1234512/your-image-name'
             }
         }
         stage('Docker run') {
